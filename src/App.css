@@ -1,0 +1,117 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+h2{text-align: center; padding-top:20px; color: blue; font-variant: small-caps;}
+
+h4{text-align: left; padding-top:20px; color: blue; font-size: 20px; }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li.logo {
+  display: block;
+  color: gainsboro;
+  text-align: center;
+  padding: 14px 8%;
+  
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.tablee{
+  width:50%;
+}
+
+.column{
+  display: flex;
+  text-align: center;
+  padding-top: 40px;
+  
+  
+}
+.mypic{
+  border-radius: 20px;
+  width: 50%;
+  height: 100%;
+  padding: 5px;
+  float: left;
+}
+.mypic-bar{
+  width: 90px;
+  background-color: #555;
+}
+.icon-bar{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.mypic-he{
+  border-radius: 20px;
+  width: 100px;
+  padding: 5px;
+  float: left;
+}
+.icon-bar a:hover{
+  background-color: #000;
+}
+.activ {
+  background-color: #04aa6d;
+}
+
+.social{
+  border-radius: 10px;
+  width: 15%;
+  padding: 10px;
+}
+
+.colorred{
+  color: red;
+}
+.colorblue{
+  color: blue;
+}
+.colorgreen{
+  color: green;
+}
+.hire{
+  width: 20%;
+  margin-top: 50px;
+}
+.Footer{
+  text-align: center;
+  background-color: #04aa6d;
+  padding: 10%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
